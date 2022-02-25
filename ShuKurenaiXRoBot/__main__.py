@@ -93,7 +93,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➗ Add Shu Kurenai To Your Group ➗", url="t.me/ShuKurenaiXRoBot?startgroup=new"),
+            text="➗ Add Shu Kurenai To Your Group ➗", url="t.me/ShuKurenaiXprobot?startgroup=new"),
     ],
     [
         InlineKeyboardButton(
@@ -109,7 +109,7 @@ buttons = [
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(
                              text="Updates🛰️",
-                             url=f"https://t.me/shukurenai007"),
+                             url=f"https://t.me/SENKUBOTS"),
     ],
 
 ]
@@ -119,7 +119,7 @@ HELP_STRINGS = """
 Click on the button bellow to get description about specifics command[.](http://telegra.ph/file/e384ab52db8c0912ca356.jpg)"""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """Contact to **@shukurenai007bot**"""
+DONATE_STRING = """Contact to **@harshahero**"""
 HELP_IMG = "http://telegra.ph/file/2861eda5afba02bf04254.jpg"
 GROUP_IMG = "http://telegra.ph/file/0adf9e97735ba8a420973.jpg"
 
@@ -246,7 +246,7 @@ def start(update: Update, context: CallbackContext):
                 [
                   [
                   InlineKeyboardButton(text="✧ Support ", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/shukurenai007"),
+                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/SENKUBOTS"),
                   ]
                 ]
             ),
@@ -401,7 +401,7 @@ def shukurenai_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="shukurenai_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/shukurenai007/ShuKurenaiXRoBot"),
+                    InlineKeyboardButton(text="Source Code", url="https://github.com/Devilharsha/ShuKurenaiRoBot"),
                     InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""), 
                  ],
                  [
@@ -461,8 +461,8 @@ def shukurenai_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/ShuKurenaiSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/shukurenai007"),
+                    InlineKeyboardButton(text="Support", url="t.me/SENKUCHAT"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/SENKUBOTS"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
@@ -481,9 +481,9 @@ def shukurenai_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="DeepakJack", url="https://github.com/DeepakJack007"),
+                    InlineKeyboardButton(text="deepak", url="https://github.com/DeepakJack007"),
                     InlineKeyboardButton(text="Kishore", url="https://github.com/AASFCYBERKING"),
-                    InlineKeyboardButton(text="Nandha", url="https://github.com/Ctzfamily"), 
+                    InlineKeyboardButton(text="harsha", url="https://github.com/Devilharsha"), 
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
@@ -810,7 +810,7 @@ def main():
                              url=f"https://t.me/ShuKurenaiSupport"),
                        InlineKeyboardButton(
                              text="Updates🛰️",
-                             url="https://t.me/shukurenai007")
+                             url="https://t.me/SENKUBOTS")
                      ] 
                 ]
             ),
