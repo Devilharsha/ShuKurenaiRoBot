@@ -807,7 +807,7 @@ def main():
                   [                  
                        InlineKeyboardButton(
                              text="Support🚑",
-                             url=f"https://t.me/ShuKurenaiSupport"),
+                             url=f"https://t.me/SENKUCHAT"),
                        InlineKeyboardButton(
                              text="Updates🛰️",
                              url="https://t.me/SENKUBOTS")
