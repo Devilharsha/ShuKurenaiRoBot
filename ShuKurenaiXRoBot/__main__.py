@@ -109,7 +109,7 @@ buttons = [
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(
                              text="Updates🛰️",
-                             url=f"https://t.me/SENKUBOTS"),
+                             url=f"https://t.me/THE_BLAZE_NETWORK"),
     ],
 
 ]
@@ -246,7 +246,7 @@ def start(update: Update, context: CallbackContext):
                 [
                   [
                   InlineKeyboardButton(text="✧ Support ", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/SENKUBOTS"),
+                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/https://t.me/THE_BLAZE_NETWORK"),
                   ]
                 ]
             ),
@@ -401,7 +401,7 @@ def shukurenai_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="shukurenai_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/Devilharsha/ShuKurenaiRoBot"),
+                    InlineKeyboardButton(text="Source Code", url="https://t.me/THE_BLAZE_NETWORK"),
                     InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""), 
                  ],
                  [
@@ -461,8 +461,8 @@ def shukurenai_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/SENKUCHAT"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/SENKUBOTS"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/Blaze_Support"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/THE_BLAZE_NETWORK"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
@@ -807,10 +807,10 @@ def main():
                   [                  
                        InlineKeyboardButton(
                              text="Support🚑",
-                             url=f"https://t.me/SENKUCHAT"),
+                             url=f"https://t.me/Blaze_Support"),
                        InlineKeyboardButton(
                              text="Updates🛰️",
-                             url="https://t.me/SENKUBOTS")
+                             url="https://t.me/THE_BLAZE_NETWORK")
                      ] 
                 ]
             ),
