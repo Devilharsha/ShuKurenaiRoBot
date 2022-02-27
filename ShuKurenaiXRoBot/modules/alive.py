@@ -12,21 +12,21 @@ from io import BytesIO
 from datetime import datetime
 import random
 from telethon import events, Button, custom, version
-from SerenaRobot.events import register
-from SerenaRobot import telethn as borg
-from SerenaRobot import StartTime, dispatcher
+from ShuKurenaiXRoBot.events import register
+from ShuKurenaiXRoBot import telethn as borg
+from ShuKurenaiXRoBot import StartTime, dispatcher
 from telethon.tl.types import ChannelParticipantsAdmins
 
 edit_time = 5
-""" =======================SERENA====================== """
-file1 = "https://telegra.ph/file/8a48d5b1fa7129a07bc2a.jpg"
-file2 = "https://telegra.ph/file/a541cc9b5f38a7fcf6c13.jpg"
-file3 = "https://telegra.ph/file/4cb3c137cc06121e410b4.jpg"
-file4 = "https://telegra.ph/file/5f92dd01bf8d9d0528ed8.jpg"
-file5 = "https://telegra.ph/file/f96a0748425e2fe528f0a.jpg"
-""" =======================SERENA====================== """
+""" =======================SHU====================== """
+file1 = "https://telegra.ph/file/1addac20ddebf7e6263e9.jpg"
+file2 = "https://telegra.ph/file/65ff3335b58bd6a77b88e.jpg"
+file3 = "https://telegra.ph/file/80d0fb8e77504577ad6b6.jpg"
+file4 = "https://telegra.ph/file/27c128a3ba4517e147283.jpg"
+file5 = "https://telegra.ph/file/199cfe7a146b6a805f2da.jpg"
+""" =======================SHU====================== """
 
-BUTTON = [[Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/PigasusSupport"), Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/PigasusUpdates")]]
+BUTTON = [[Button.url("sᴜᴘᴘᴏʀᴛ🚑", "https://t.me/Blaze_Support"), Button.url("ᴜᴘᴅᴀᴛᴇs💖", "https://t.me/THE_BLAZE_NETWORK")]]
 
 
 START_TIME = datetime.utcnow()
@@ -57,10 +57,10 @@ async def hmm(yes):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
-    pm_caption = "** ♡ I,m Serena Yvonne **\n\n"
+    pm_caption = "** ♡ I,m ShuKurenai **\n\n"
     pm_caption += f"**♡ My Uptime :** `{uptime}`\n\n"
     pm_caption += f"**♡ Telethon Version :** `{version.__version__}`\n\n"
-    pm_caption += "**♡ My Master :** [AASFCYBERKING](https://t.me/AASFCYBERKING)\n"
+    pm_caption += "**♡ My Master :** [HARSHA](https://t.me/harshahero)\n"
     BUTTON = [[Button.url("Support", "https://t.me/PegasusSupportOfficial"), Button.url("Updates", "https://t.me/PegasusUpdates")]]
     on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption, buttons=BUTTON)
     
